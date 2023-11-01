@@ -1,0 +1,294 @@
+#template-content-second-widget-div-h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 0px;
+}
+@media only screen and (max-width: 900px) {
+    #template-content-first-widget-div {
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-top: 5%;
+        font-family: Lindedaxoffice;
+    }
+
+    #template-content-first-widget-banner img {
+        border-radius: 20px;
+        width: -webkit-fill-available;
+    }
+
+
+    #template-content-first-widget-text h1 {
+        color: #00305c;
+        margin-bottom: 20px;
+
+
+    }
+
+    #template-content-first-widget-text button {
+        background-color: #00A0E1;
+        padding: 10px;
+        width: 200px;
+        border: #00A0E1;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+
+    #template-content-first-widget-text p {
+        color: #00305c;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+
+    }
+
+    #template-content-first-widget-icons {
+        margin-top: 30px;
+    }
+
+    #template-content-first-widget-icons img {
+        margin-right: 70px;
+    }
+
+    #template-content-second-widget-div {
+        background-color: #e5edef;
+        padding: 2%;
+        margin: auto;
+        color: #00305c;
+        border-radius: 8px;
+        margin-top: 45px;
+        font-family: Lindedaxoffice;
+        margin-bottom: 22px;
+
+    }
+
+    #template-content-second-widget-div p {
+        font-size: 1.2rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #ex1 {
+        margin-top: 30px;
+        width: max-content;
+        font-size: 1.7rem;
+    }
+
+    #ex1-tab-1,
+    #ex1-tab-2,
+    #ex1-tab-3 {
+        background-color: #e5edef;
+        color: #00305c;
+    }
+
+    #ex1-tab-1:hover,
+    #ex1-tab-2:hover,
+    #ex1-tab-3:hover,
+    #ex1-tab-4:hover {
+        background-color: #00A0E1;
+        font-weight: 800px;
+        border-bottom: #00A0E1;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+    #template-content-first-widget-div {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        margin-top: 5%;
+        font-family: Lindedaxoffice;
+    }
+
+    #template-content-first-widget-banner img {
+        border-radius: 20px;
+        width: 400px;
+    }
+
+
+    #template-content-first-widget-text h1 {
+        color: #00305c;
+        margin-bottom: 20px;
+        margin-top: 0px;
+
+
+    }
+
+    #template-content-first-widget-text {
+        margin-left: 30px;
+        width: 400px;
+    }
+
+    #template-content-first-widget-text button {
+        background-color: #00A0E1;
+        padding: 10px;
+        width: 200px;
+        border: #00A0E1;
+        color: white;
+        font-size: 1.7rem;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+
+    #template-content-first-widget-text p {
+        color: #00305c;
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+
+    }
+
+    #template-content-first-widget-icons {
+        margin-top: 20px;
+    }
+
+    #template-content-first-widget-icons img {
+        margin-right: 70px;
+    }
+
+    #template-content-second-widget-div {
+        background-color: #e5edef;
+        padding: 2%;
+        margin: auto;
+        color: #00305c;
+        border-radius: 8px;
+        margin-top: 45px;
+        font-family: Lindedaxoffice;
+        margin-bottom: 22px;
+        width: 95%;
+
+    }
+
+    #template-content-second-widget-div p {
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #ex1 {
+        margin-top: 30px;
+        width: max-content;
+        font-size: 1.7rem;
+    }
+
+    #ex1-tab-1,
+    #ex1-tab-2,
+    #ex1-tab-3 {
+        background-color: #e5edef;
+        color: #00305c;
+    }
+
+    #ex1-tab-1:hover,
+    #ex1-tab-2:hover,
+    #ex1-tab-3:hover,
+    #ex1-tab-4:hover {
+        background-color: #00A0E1;
+        font-weight: 800px;
+        border-bottom: #00A0E1;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1101px) {
+    #template-content-first-widget-div {
+        display: flex;
+        width: 1110px;
+        margin: auto;
+        margin-top: 5%;
+        font-family: Lindedaxoffice;
+    }
+
+    #template-content-first-widget-banner img {
+        width: 500px;
+        border-radius: 20px;
+        height: 300px;
+    }
+
+    #template-content-first-widget-text {
+        width: 500px;
+        margin-left: 70px;
+
+    }
+
+    #template-content-first-widget-text h1 {
+        color: #00305c;
+        margin-bottom: 20px;
+
+
+    }
+
+    #template-content-first-widget-text button {
+        background-color: #00A0E1;
+        padding: 10px;
+        width: 200px;
+        border: #00A0E1;
+        color: white;
+        font-size: 1.7rem;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+
+    #template-content-first-widget-text p {
+        color: #00305c;
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+
+    }
+
+    #template-content-first-widget-icons {
+        margin-top: 30px;
+    }
+
+    #template-content-first-widget-icons img {
+        margin-right: 70px;
+    }
+
+    #template-content-second-widget-div {
+        background-color: #e5edef;
+        padding: 2%;
+        width: 1110px;
+        margin: auto;
+        color: #00305c;
+        border-radius: 8px;
+        margin-top: 45px;
+        font-family: Lindedaxoffice;
+        margin-bottom: 22px;
+
+    }
+
+    #template-content-second-widget-div p {
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #ex1 {
+        margin-top: 30px;
+        width: max-content;
+        font-size: 1.7rem;
+    }
+
+    #ex1-tab-1,
+    #ex1-tab-2,
+    #ex1-tab-3 {
+        background-color: #e5edef;
+        color: #00305c;
+    }
+
+    #ex1-tab-1:hover,
+    #ex1-tab-2:hover,
+    #ex1-tab-3:hover,
+    #ex1-tab-4:hover {
+        background-color: #00A0E1;
+        font-weight: 800px;
+        border-bottom: #00A0E1;
+        color: white;
+    }
+}

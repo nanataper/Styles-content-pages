@@ -1,0 +1,187 @@
+@media only screen and (max-width: 900px) {
+
+    #services-page-container-div {
+        margin: auto;
+        color: #00305c;
+        border-radius: 8px;
+        font-family: Lindedaxoffice;
+        width: 90%;
+        margin: auto;
+        margin-top: 45px;
+
+    }
+
+    #services-page-subheadings-h4 {
+
+        color: #00A0E1;
+        font-weight: 700;
+
+    }
+
+
+    #services-page-container-div p {
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #text-and-image-flex-div {
+        width: 95%;
+        display: block;
+    }
+
+    #text-and-image-flex-div ul,
+    #text-and-image-flex-div p {
+        width: 100%;
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #text-and-image-flex-div img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #contact-form-div {
+        width: 95%;
+    }
+
+    #contact-form-div h4 {
+        text-align: center;
+        color: #00305c;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1120px) {
+
+    #services-page-container-div {
+        margin: auto;
+        color: #00305c;
+        border-radius: 8px;
+        margin-top: 45px;
+        font-family: Lindedaxoffice;
+        margin-bottom: 22px;
+        width: 900px;
+
+    }
+
+    #services-page-subheadings-h4 {
+
+        color: #00A0E1;
+        font-weight: 700;
+
+    }
+
+
+    #services-page-container-div p {
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #text-and-image-flex-div {
+        width: 900px;
+        display: flex;
+    }
+
+    #text-and-image-flex-div ul,
+    #text-and-image-flex-div p {
+        width: 50%;
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+        margin-right: 30px;
+
+    }
+
+    #text-and-image-flex-div img {
+        width: 45%;
+        border-radius: 20px;
+    }
+
+    #contact-form-div {
+        width: 900px;
+        margin: auto;
+    }
+
+    #contact-form-div h4 {
+        text-align: center;
+        color: #00305c;
+        font-weight: 700;
+        margin: 10px;
+
+    }
+
+}
+
+@media only screen and (min-width: 1120px) {
+    #services-page-container-div {
+        width: 1110px;
+        margin: auto;
+        color: #00305c;
+        border-radius: 8px;
+        margin-top: 45px;
+        font-family: Lindedaxoffice;
+        margin-bottom: 22px;
+
+    }
+
+    #services-page-subheadings-h4 {
+        color: #00A0E1;
+        font-weight: 700;
+    }
+
+
+    #services-page-container-div p {
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #services-page-container-div ul li {
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+
+    }
+
+    #text-and-image-flex-div {
+        width: 1110px;
+        display: flex;
+    }
+
+    #text-and-image-flex-div ul,
+    #text-and-image-flex-div p {
+        width: 50%;
+        font-size: 1.7rem;
+        font-family: Lindedaxoffice;
+        word-spacing: 5px;
+        margin-right: 30px;
+
+    }
+
+    #text-and-image-flex-div img {
+        width: 45%;
+        border-radius: 20px;
+    }
+
+    #contact-form-div {
+        width: 1110px;
+        margin: auto;
+    }
+
+    #contact-form-div h4 {
+        text-align: center;
+        color: #00305c;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+
+}
