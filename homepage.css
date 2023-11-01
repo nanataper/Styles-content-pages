@@ -1,0 +1,962 @@
+@media only screen and (max-width: 600px) {
+
+    /* do not display desktop banner on mobile, keep it none */
+    .slideshow-container {
+        display: none;
+    }
+
+    #arrows-dots {
+        display: none;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    #homepage-banner-mobile {
+        display: block;
+        width: 100%;
+        color: #00305c;
+        font-family: LindeDaxOffice;
+    }
+
+    #banner-image-mobile {
+        width: 95%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    #banner-text-div-mobile {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #banner-text-div-mobile h1 {
+        line-height: 50px;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 3rem;
+    }
+
+    #banner-text-div-mobile p {
+        font-size: 1.9rem;
+        line-height: 33px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #banner-callToAction {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    #banner-callToAction button {
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 1.7rem;
+
+    }
+
+    #become-customer-button,
+    #buy-gas-button {
+        background-color: #00A0E1;
+        color: #fff;
+        margin-right: 10px;
+        border: none;
+    }
+
+    /*Widget second icons row*/
+    #welcoming-icons-div {
+        display: none;
+    }
+
+    #icons-container-mobile {
+        background-color: #F1F6F9;
+        width: 100%;
+        display: block;
+        height: 250px;
+
+    }
+
+    #icons-first-row,
+    #icons-second-row {
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+
+    }
+
+    .icons-label-div h4 {
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    #welcoming-icons-div {
+        display: none;
+    }
+
+    #icons-container-mobile {
+        background-color: #F1F6F9;
+        width: 100%;
+        display: block;
+        height: 250px;
+
+    }
+
+    #icons-first-row,
+    #icons-second-row {
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+
+    }
+
+    .icons-label-div h4 {
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    #customer-portal-links {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    #important-links,
+    #my-profile-links,
+    #my-account-links {
+        width: 300px;
+        height: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 1.7rem;
+        color: #00305c;
+        line-height: 35px;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1199px) {
+
+    /* do not display desktop banner on mobile, keep it none */
+    #homepage-banner-mobile {
+        display: none;
+    }
+
+    #banner-text-div {
+        width: 45%;
+    }
+
+    .banner-img-home {
+        width: 45%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+
+    /*css for banner slider */
+
+    .mySlides {
+        display: none;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        display: flex;
+        width: 95%;
+        padding: 20px 20px;
+        color: #00305c;
+        font-family: LindeDaxOffice;
+        margin: auto;
+    }
+
+    #banner-callToAction {
+        display: flex;
+    }
+
+    #banner-callToAction button {
+        width: 250px;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 1.7rem;
+
+    }
+
+    #become-customer-button,
+    #buy-gas-button {
+        background-color: #00A0E1;
+        color: #fff;
+        margin-right: 10px;
+        border: none;
+    }
+
+    #become-customer-button:hover,
+    #explore-button:hover,
+    #buy-gas-button:hover {
+        background-color: #4cbcea;
+        color: white;
+        transition: all ease-in 0.75s;
+    }
+
+    #banner-text-div h1 {
+        line-height: 50px;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 2.3rem;
+    }
+
+    #banner-text-div p {
+        font-size: 1.7rem;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    #banner-callToAction {
+        display: flex;
+    }
+
+    #banner-callToAction button {
+        width: 250px;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 1.7rem;
+
+    }
+
+    #become-customer-button,
+    #buy-gas-button {
+        background-color: #00A0E1;
+        color: #fff;
+        margin-right: 10px;
+        border: none;
+    }
+
+    #explore-button {
+        background-color: #00A0E1;
+        color: #fff;
+        margin-right: 10px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    #buy-gas-button {
+        background-color: #fff;
+        color: #00305c;
+        border: 1px solid #CCDDE1;
+    }
+
+
+    .mySlides {
+        display: flex;
+    }
+
+    .numbertext {
+        display: none;
+    }
+
+    .fade {
+        animation-name: fade;
+        opacity: initial;
+        animation: ease-in 8s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.9
+        }
+
+        to {
+            opacity: 3
+        }
+    }
+
+    .prev,
+    .next {
+        height: 100%;
+        margin: auto;
+        font-size: 30px;
+        color: rgba(0, 160, 225, 0.62);
+        margin-right: 15px;
+        text-decoration: none;
+    }
+
+    .prev:hover,
+    .next:hover {
+        color: #00A0E1;
+        text-decoration: none;
+    }
+
+    /*Icons second widget desktop*/
+
+    #icons-container-mobile {
+        display: none;
+    }
+
+    .container-fluid--home-page {
+        background-color: #F1F6F9;
+        height: 150px;
+
+    }
+
+    #welcoming-icons-div {
+        width: 100%;
+        background-color: #F1F6F9;
+        padding: 12px;
+        height: 150px;
+    }
+
+    #icons-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    /*Customer portal links*/
+    #customer-portal-links {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #important-links,
+    #my-profile-links,
+    #my-account-links {
+        width: 33%;
+        height: auto;
+        background: #fff;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 1.7rem;
+        color: #00305c;
+        line-height: 35px;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #homepage-banner-mobile {
+        display: none;
+    }
+
+    .banner-img-home {
+        width: 600px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 30px;
+    }
+
+    /*css for banner slider */
+
+    .mySlides {
+        display: none;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        display: flex;
+        width: 95%;
+        padding: 25px 30px;
+        color: #00305c;
+        font-family: LindeDaxOffice;
+        /*same width (padding) as header and other elements*/
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+
+
+    /* The dots/bullets/indicators */
+    .dot {
+        display: none;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    #banner-text-div h1 {
+        line-height: 50px;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 3rem;
+    }
+
+    #banner-text-div p {
+        font-size: 1.9rem;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #banner-callToAction {
+        display: flex;
+    }
+
+    #banner-callToAction button {
+        width: 250px;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 1.7rem;
+
+    }
+
+    #become-customer-button,
+    #buy-gas-button {
+        background-color: #00A0E1;
+        color: #fff;
+        margin-right: 10px;
+        border: none;
+    }
+
+    #explore-button {
+        background-color: #00A0E1;
+        color: #fff;
+        margin-right: 10px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    #become-customer-button:hover,
+    #explore-button:hover,
+    #buy-gas-button:hover {
+        background-color: #4cbcea;
+        color: white;
+        transition: all ease-in 0.75s;
+    }
+
+    #buy-gas-button {
+        background-color: #fff;
+        color: #00305c;
+        border: 1px solid #CCDDE1;
+    }
+
+    #banner-text-div {
+        width: 50%;
+    }
+
+    .mySlides {
+        display: flex;
+    }
+
+    .numbertext {
+        display: none;
+    }
+
+    .fade {
+        animation-name: fade;
+        opacity: initial;
+        animation: ease-in 8s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.9
+        }
+
+        to {
+            opacity: 3
+        }
+    }
+
+    .prev,
+    .next {
+        height: 100%;
+        margin: auto;
+        font-size: 30px;
+        color: rgba(0, 160, 225, 0.62);
+        margin-right: 15px;
+        text-decoration: none;
+    }
+
+    .prev:hover,
+    .next:hover {
+        color: #00A0E1;
+        text-decoration: none;
+    }
+
+    /*Icons second widget desktop*/
+
+    #icons-container-mobile {
+        display: none;
+    }
+
+    .container-fluid--home-page {
+        background-color: #F1F6F9;
+        height: 150px;
+
+    }
+
+    #welcoming-icons-div {
+        width: 100%;
+        background-color: #F1F6F9;
+        padding: 12px;
+        height: 150px;
+    }
+
+    #icons-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    /*Customer portal links*/
+    #customer-portal-links {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #important-links,
+    #my-profile-links,
+    #my-account-links {
+        width: 33%;
+        height: auto;
+        background: #fff;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 1.7rem;
+        color: #00305c;
+        line-height: 35px;
+
+    }
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/*Second row general icon styles*/
+
+.icons-label-div {
+    display: block;
+    width: 200px;
+    cursor: pointer;
+}
+
+.icons-label-div img {
+    width: 60px;
+    height: 50px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    cursor: pointer;
+
+}
+
+.icons-label-div h4 {
+    font-weight: 700;
+}
+
+.icons-label-div:hover h4 {
+    transition: all ease-out 0.40s;
+    color: #00A0E1;
+}
+
+/*Widget third general cards style*/
+
+#card-bulk {
+    width: 370px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+#card-bulk img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#card-bulk h4 {
+    padding: 20px;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #00305c;
+
+}
+
+#card-bulk p {
+    padding: 0 20px;
+    font-size: 1.7rem;
+    color: #949191;
+
+}
+
+#read-more-button {
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+    color: #00A0E1;
+    font-size: 1.7rem;
+}
+
+#read-more-button:hover {
+    transition: all 1.5s;
+    color: #013B70;
+    /* transform: translateX(5px); */
+}
+
+/* margin bottom from this widget to the next widget below */
+
+.container-fluid--content-recamondation {
+    margin-bottom: 50px;
+}
+
+#card-bulk img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/*Applications widget*/
+
+@media only screen and (max-width: 700px) {
+    #applications {
+        display: none;
+    }
+
+    #see-all-div {
+        width: 95%;
+        margin: auto;
+        display: block;
+    }
+
+    #all-gases-equipments {
+        background-color: #00305c;
+    }
+
+    #all-applications {
+        background-color: #00a0E1;
+    }
+
+    #all-gases-equipments,
+    #all-applications {
+        border: 1px solid #00a0E1;
+        border-radius: 10px;
+        color: #fff;
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #all-gases-equipments:hover,
+    #all-applications:hover {
+        transform: scale3d(1.1, 1.1, 1.1);
+        transition: all ease-out 0.45s;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #segmentLink {
+        text-decoration: none;
+    }
+
+    #segmentLink:hover {
+        text-decoration: none;
+        color: #00a0E1;
+        transition: ease-in-out 700ms;
+    }
+
+    #segmentListDiv {
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 2%;
+        text-align: center;
+        color: #00305c;
+        font-size: 12px;
+    }
+
+    #segmentDiv {
+        display: inline-block;
+        width: 13.5%;
+        margin-left: 6rem;
+    }
+
+    h3 {
+        font-weight: 700;
+        color: #00305c;
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+    }
+
+    #segmentDiv p {
+        font-size: 1.7rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+
+    #see-all-div {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+
+    #all-gases-equipments,
+    #all-applications {
+        border: 1px solid #00a0E1;
+        border-radius: 10px;
+        background-color: #00a0E1;
+        color: #fff;
+        width: 45%;
+        padding: 10px;
+        margin-top: 30px;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #all-gases-equipments:hover,
+    #all-applications:hover {
+        transition: all ease-out 0.45s;
+        background-color: #4cbcea;
+    }
+}
+
+/*Customer portal links widget*/
+#customer-portal-parent-div {
+    width: 100%;
+    background-color: #F1F6F9;
+    padding: 40px;
+    margin-top: 60px;
+
+}
+
+#customer-portal-parent-div h3 {
+    font-weight: 700;
+    text-align: center;
+    color: #00305c;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+#important-links h4,
+#my-profile-links h4,
+#my-account-links h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00305c;
+}
+
+#important-links img,
+#my-profile-links img,
+#my-account-links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+#important-links ul,
+#my-profile-links ul,
+#my-account-links ul {
+    line-height: 4.5rem;
+}
+
+ul li {
+    transform: color;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: #00A0E1;
+    transition: ease-in-out 0.45s;
+}
+
+/*About linde widget*/
+
+
+@media only screen and (max-width: 1000px) {
+    #about-linde-parent-div {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1001px) {
+
+
+    #about-linde-parent-div {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    #about-linde-left-side {
+        width: 50%;
+
+    }
+
+    #about-linde-right-side {
+        width: 45%;
+    }
+
+    #about-linde-left-side {
+        padding: 10px;
+    }
+
+    #about-linde-left-side p {
+        font-size: 1.5rem;
+        color: #00305c;
+        line-height: 28px;
+    }
+
+    #about-linde-left-side h3 {
+        color: #00305c;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    #about-linde-right-side img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    #sign-up-card-div {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    #sign-up-card-div {
+        width: 90%;
+        margin: auto;
+        background-color: rgba(232, 240, 245, 0.54);
+        display: flex;
+        border-radius: 10px;
+        padding: 30px;
+        color: #00305c;
+        font-family: LindeDaxOffice;
+        font-size: 1.7rem;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    #image-div {
+        width: 30%;
+    }
+
+    #image-div img {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    #intro-text-div {
+        width: 40%;
+        margin-left: 20px;
+
+    }
+
+    #four-step-div {
+        width: 30%;
+        line-height: 60px;
+        margin-top: 20px;
+        font-size: 1.7rem;
+    }
+
+    #intro-text-div h3 {
+        text-align: left;
+    }
+
+    #intro-text-div p {
+        line-height: 32px;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+
+    #get-started-button {
+        color: #fff;
+        background-color: #00A0E1;
+        padding: 10px;
+        width: 200px;
+        border: 1px solid #00A0E1;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+
+    #get-started-button:hover {
+        transition: all ease-out 0.75s;
+        cursor: pointer;
+        background-color: #00305c;
+        border: none;
+        filter: drop-shadow(0px 4px 4px rgba(11, 11, 11, 0.31));
+    }
+
+    #steps-get-started {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+}
